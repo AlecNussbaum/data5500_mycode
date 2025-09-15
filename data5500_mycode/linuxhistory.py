@@ -1,0 +1,11 @@
+ls
+cd
+pwd
+mkdir
+cp
+mv
+man
+touch
+grep
+ps
+history
