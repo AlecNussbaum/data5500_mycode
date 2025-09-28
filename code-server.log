@@ -1,20 +1,19 @@
-[2025-09-15T04:36:51.031Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
-[2025-09-15T04:36:51.045Z] info  Using user-data-dir /root/.local/share/code-server
-[2025-09-15T04:36:51.111Z] info  Using config file /home/ubuntu/.config/code-server/config.yaml
-[2025-09-15T04:36:51.111Z] info  HTTPS server listening on https://0.0.0.0/
-[2025-09-15T04:36:51.111Z] info    - Authentication is enabled
-[2025-09-15T04:36:51.111Z] info      - Using password from /home/ubuntu/.config/code-server/config.yaml
-[2025-09-15T04:36:51.111Z] info    - Using certificate for HTTPS: /home/ubuntu/.config/code-server/selfsigned.crt
-[2025-09-15T04:36:51.111Z] info  Session server listening on /root/.local/share/code-server/code-server-ipc.sock
-[04:36:53] 
+[2025-09-28T23:10:54.903Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-09-28T23:10:54.915Z] info  Using user-data-dir /root/.local/share/code-server
+[2025-09-28T23:10:54.984Z] info  Using config file /home/ubuntu/.config/code-server/config.yaml
+[2025-09-28T23:10:54.985Z] info  HTTPS server listening on https://0.0.0.0/
+[2025-09-28T23:10:54.985Z] info    - Authentication is enabled
+[2025-09-28T23:10:54.985Z] info      - Using password from /home/ubuntu/.config/code-server/config.yaml
+[2025-09-28T23:10:54.985Z] info    - Using certificate for HTTPS: /home/ubuntu/.config/code-server/selfsigned.crt
+[2025-09-28T23:10:54.985Z] info  Session server listening on /root/.local/share/code-server/code-server-ipc.sock
+[23:13:26] 
 
 
 
 
-[04:36:53] Extension host agent started.
-[04:36:53] Deleted marked for removal extension from disk ms-python.python /root/.local/share/code-server/extensions/ms-python.python-2025.12.0-universal
+[23:13:26] Extension host agent started.
 File not found: /var/app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
 File not found: /var/app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
-[04:36:58] [<unknown>][ebaba7cd][ManagementConnection] New connection established.
-[04:37:00] [<unknown>][0b4ce23e][ExtensionHostConnection] New connection established.
-[04:37:01] [<unknown>][0b4ce23e][ExtensionHostConnection] <14412> Launched Extension Host Process.
+[23:14:11] [<unknown>][982860a8][ManagementConnection] New connection established.
+[23:14:14] [<unknown>][27ae3c1a][ExtensionHostConnection] New connection established.
+[23:14:14] [<unknown>][27ae3c1a][ExtensionHostConnection] <2421> Launched Extension Host Process.
