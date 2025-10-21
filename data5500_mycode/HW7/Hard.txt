@@ -1,0 +1,4 @@
+There are a few cases for deleting nodes. The first is if the node has no children. If this is the case, the node can be removed by setting its parent's corresponding pointer to none.
+If the node has one childe, then replace the node with its only child. The results should be that the node points directyl to the child. 
+Lastly, and most difficult is when the node has two children. In this circumstance, find the inorder successor, copy the successors value to the node to be deleted, then delete the successor node. 
+Trouble may appear when attepting to delete duplicates. Another important thing to consider is if the tree is empty. Always check if the root is "none" before starting.
