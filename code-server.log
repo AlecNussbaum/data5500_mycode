@@ -1,63 +1,63 @@
-[2025-10-21T21:41:00.561Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
-[2025-10-21T21:41:00.573Z] info  Using user-data-dir /root/.local/share/code-server
-[2025-10-21T21:41:00.641Z] info  Using config file /home/ubuntu/.config/code-server/config.yaml
-[2025-10-21T21:41:00.642Z] info  HTTPS server listening on https://0.0.0.0/
-[2025-10-21T21:41:00.642Z] info    - Authentication is enabled
-[2025-10-21T21:41:00.642Z] info      - Using password from /home/ubuntu/.config/code-server/config.yaml
-[2025-10-21T21:41:00.642Z] info    - Using certificate for HTTPS: /home/ubuntu/.config/code-server/selfsigned.crt
-[2025-10-21T21:41:00.642Z] info  Session server listening on /root/.local/share/code-server/code-server-ipc.sock
-[21:41:23] 
+[2025-11-07T02:37:11.911Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-11-07T02:37:11.927Z] info  Using user-data-dir /root/.local/share/code-server
+[2025-11-07T02:37:12.065Z] info  Using config file /home/ubuntu/.config/code-server/config.yaml
+[2025-11-07T02:37:12.067Z] info  HTTPS server listening on https://0.0.0.0/
+[2025-11-07T02:37:12.069Z] info    - Authentication is enabled
+[2025-11-07T02:37:12.069Z] info      - Using password from /home/ubuntu/.config/code-server/config.yaml
+[2025-11-07T02:37:12.069Z] info    - Using certificate for HTTPS: /home/ubuntu/.config/code-server/selfsigned.crt
+[2025-11-07T02:37:12.069Z] info  Session server listening on /root/.local/share/code-server/code-server-ipc.sock
+[02:37:19] 
 
 
 
 
-[21:41:24] Extension host agent started.
+[02:37:19] Extension host agent started.
+[node.js fs] readdir with filetypes failed with error:  Error: ENOENT: no such file or directory, scandir '/root/.local/share/code-server/extensions/ms-python.debugpy-2025.10.0-linux-x64'
+    at async Object.readdir (node:internal/fs/promises:955:18)
+    at async dN (file:///var/app/code-server/lib/vscode/out/server-main.js:27:88318)
+    at async N5 (file:///var/app/code-server/lib/vscode/out/server-main.js:27:88247)
+    at async Object.ch (file:///var/app/code-server/lib/vscode/out/server-main.js:27:88106)
+    at async Nu.readdir (file:///var/app/code-server/lib/vscode/out/server-main.js:67:15795)
+    at async El.t (file:///var/app/code-server/lib/vscode/out/server-main.js:64:9723)
+    at async El.resolve (file:///var/app/code-server/lib/vscode/out/server-main.js:64:8839)
+    at async gf.H (file:///var/app/code-server/lib/vscode/out/server-main.js:55:25949)
+    at async Promise.all (index 0)
+    at async gf.scanAllUserExtensions (file:///var/app/code-server/lib/vscode/out/server-main.js:55:20488)
+    at async O8.H (file:///var/app/code-server/lib/vscode/out/server-main.js:55:9952)
+    at async O8.s (file:///var/app/code-server/lib/vscode/out/server-main.js:55:7847) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/root/.local/share/code-server/extensions/ms-python.debugpy-2025.10.0-linux-x64'
+}
+[node.js fs] readdir with filetypes failed with error:  Error: ENOENT: no such file or directory, scandir '/root/.local/share/code-server/extensions/ms-python.python-2025.14.0-universal'
+    at async Object.readdir (node:internal/fs/promises:955:18)
+    at async dN (file:///var/app/code-server/lib/vscode/out/server-main.js:27:88318)
+    at async N5 (file:///var/app/code-server/lib/vscode/out/server-main.js:27:88247)
+    at async Object.ch (file:///var/app/code-server/lib/vscode/out/server-main.js:27:88106)
+    at async Nu.readdir (file:///var/app/code-server/lib/vscode/out/server-main.js:67:15795)
+    at async El.t (file:///var/app/code-server/lib/vscode/out/server-main.js:64:9723)
+    at async El.resolve (file:///var/app/code-server/lib/vscode/out/server-main.js:64:8839)
+    at async gf.H (file:///var/app/code-server/lib/vscode/out/server-main.js:55:25949)
+    at async Promise.all (index 2)
+    at async gf.scanAllUserExtensions (file:///var/app/code-server/lib/vscode/out/server-main.js:55:20488)
+    at async O8.H (file:///var/app/code-server/lib/vscode/out/server-main.js:55:9952)
+    at async O8.s (file:///var/app/code-server/lib/vscode/out/server-main.js:55:7847) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/root/.local/share/code-server/extensions/ms-python.python-2025.14.0-universal'
+}
+[02:37:19] Deleted marked for removal extension from disk ms-python.debugpy /root/.local/share/code-server/extensions/ms-python.debugpy-2025.10.0-linux-x64
+[02:37:19] Deleted marked for removal extension from disk ms-python.python /root/.local/share/code-server/extensions/ms-python.python-2025.14.0-universal
 File not found: /var/app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
 File not found: /var/app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
-[21:41:33] [<unknown>][69a7f889][ManagementConnection] New connection established.
-[21:41:36] [<unknown>][d1a22f99][ExtensionHostConnection] New connection established.
-[21:41:36] [<unknown>][d1a22f99][ExtensionHostConnection] <2417> Launched Extension Host Process.
-[21:41:40] Getting Manifest... ms-python.debugpy
-[21:41:40] Getting Manifest... ms-python.python
-[21:41:41] Installing extension: ms-python.debugpy {
-  productVersion: { version: '1.103.2', date: '2025-08-25T17:36:40.017Z' },
-  pinned: false,
-  operation: 3,
-  isApplicationScoped: false,
-  profileLocation: Or {
-    scheme: 'file',
-    authority: '',
-    path: '/root/.local/share/code-server/extensions/extensions.json',
-    query: '',
-    fragment: '',
-    _formatted: 'file:///root/.local/share/code-server/extensions/extensions.json',
-    _fsPath: '/root/.local/share/code-server/extensions/extensions.json'
-  }
-}
-[21:41:41] Installing extension: ms-python.python {
-  productVersion: { version: '1.103.2', date: '2025-08-25T17:36:40.017Z' },
-  pinned: false,
-  operation: 3,
-  isApplicationScoped: false,
-  profileLocation: Or {
-    scheme: 'file',
-    authority: '',
-    path: '/root/.local/share/code-server/extensions/extensions.json',
-    query: '',
-    fragment: '',
-    _formatted: 'file:///root/.local/share/code-server/extensions/extensions.json',
-    _fsPath: '/root/.local/share/code-server/extensions/extensions.json'
-  }
-}
-[21:41:42] #3: https://open-vsx.org/vscode/gallery/vscode/ms-python/python/latest - error GET connect ECONNREFUSED 127.0.0.1:80
-[21:41:42] Error while getting the latest version for the extension ms-python.python. connect ECONNREFUSED 127.0.0.1:80
-[21:41:42] Getting Manifest... ms-python.python
-[21:41:46] Extracted extension to file:///root/.local/share/code-server/extensions/ms-python.debugpy-2025.14.1-linux-x64: ms-python.debugpy
-[21:41:46] Renamed to /root/.local/share/code-server/extensions/ms-python.debugpy-2025.14.1-linux-x64
-[21:41:47] Marked extension as removed ms-python.debugpy-2025.10.0-linux-x64
-[21:41:47] Extension installed successfully: ms-python.debugpy file:///root/.local/share/code-server/extensions/extensions.json
-[21:41:48] Extracted extension to file:///root/.local/share/code-server/extensions/ms-python.python-2025.16.0-universal: ms-python.python
-[21:41:48] Renamed to /root/.local/share/code-server/extensions/ms-python.python-2025.16.0-universal
-[21:41:48] Extension installed successfully: ms-python.python file:///root/.local/share/code-server/extensions/extensions.json
-[21:41:48] Marked extension as removed ms-python.python-2025.14.0-universal
-File not found: /var/app/code-server/lib/vscode/node_modules/vscode-regexp-languagedetection/dist/index.js
+[02:37:30] [<unknown>][562d2475][ManagementConnection] New connection established.
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///var/app/code-server/lib/vscode/out/server-main.js:207:8010)
+    at process.emit (node:events:530:35)
+[02:37:37] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///var/app/code-server/lib/vscode/out/server-main.js:188:1327)
+    at process.emit (node:events:530:35)
+[02:37:37] [<unknown>][595a7edc][ExtensionHostConnection] New connection established.
+[02:37:37] [<unknown>][595a7edc][ExtensionHostConnection] <2811> Launched Extension Host Process.
